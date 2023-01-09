@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 3.1,
+          "height": 3.5,
+          "width": 3.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -55,7 +55,15 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|378750001|101000000|00000000-0000-0000-0000-000060a2a4ab|00000000-0000-0000-0000-000060a3462f",
+        "hole_clearance|314106700|157855000|4fda3725-74e9-4ceb-b7d1-44df9adebe7e|8708ae81-efd3-4dfb-a72d-c6be7747203f",
+        "hole_near_hole|315387000|142615000|0d282df4-ba93-4ef0-918c-47ab5aed37b7|ca707668-d15d-4f21-9435-cf5470884cb4",
+        "hole_near_hole|327300000|149600000|1b5a32e4-0b8e-4f38-b679-71dc277c2087|75ffc65c-7132-4411-9f2a-ae0c73d79338",
+        "hole_near_hole|336834200|140084120|c7cd39db-931a-4d86-96b8-57e6b39f58f9|7a310fea-600a-45e0-a78e-dd5ed94c614a",
+        "hole_near_hole|79970450|168659120|099473f1-6598-46ff-a50f-4c520832170d|254f7cc6-cee1-44ca-9afe-939b318201aa",
+        "hole_near_hole|91241700|168659120|9da1ace0-4181-4f12-80f8-16786a9e5c07|ca56e1ad-54bf-4df5-a4f7-99f5d61d0de9"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
