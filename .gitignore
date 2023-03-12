@@ -21,11 +21,4 @@ _autosave-*
 *.ses
 
 # Exported BOM files
-*.xml
-*.csv
-!_Gerbers/*
-!_Gerbers/*/*
-MainPCB-HOTSWAP/EnvKB65HS-backups/*
-MainPCB/EnvKB65-backups/*
-BottomPCB/EnvKB65_bottom-backups/
-BottomPCB/EnvKB65_bottom-backups/*.zip
+*/*backup*/*.zip
